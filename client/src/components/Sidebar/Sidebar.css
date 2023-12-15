@@ -1,0 +1,71 @@
+/* client/src/components/Sidebar/Sidebar.css */
+
+.sidebar {
+    position: fixed;
+    top: 80px; /* Высота вашей шапки */
+    left: 0;
+    width: 200px;
+    min-height: 100px;
+    /*height: calc(100% - 50px); !* Высота экрана минус высота шапки *!*/
+    background-color: #e2f2f6;
+    padding: 20px;
+    z-index: 1000;
+    overflow-y: auto; /* Добавляем вертикальный скролл, если контент не помещается */
+
+    /* Новые стили для вычисления высоты */
+    max-height: calc(100% - 50px); /* Максимальная высота (высота экрана минус высота шапки) */
+    box-shadow: 6px 7px 7px #d2eafa;
+    border-radius: 0 0 10px;
+
+
+}
+.content {
+    margin-left: 220px; /* Учитываем ширину Sidebar + отступ справа */
+    padding: 20px;
+}
+
+.sidebar h2 {
+    color: #915409;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    cursor: pointer;
+    padding: 10px;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+
+}
+
+li:hover {
+    background-color: #70daf6;
+    color: #282c34;
+    border-radius: 5px;
+}
+
+.selected {
+    background-color: #92e3f8;
+    color: #282c34;
+    border-radius: 5px;
+}
+
+
+
+@media (max-width: 768px) {
+    .sidebar {
+        display: none; /* Скрываем Sidebar на маленьких экранах */
+    }
+
+    .show-sidebar {
+        display: flex; /* Показываем Sidebar при активации класса .show-sidebar */
+    }
+}
