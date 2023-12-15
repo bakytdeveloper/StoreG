@@ -1,0 +1,75 @@
+/* client/src/components/EditModal/EditModal.css */
+
+.edit-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.edit-modal {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+    padding: 20px;
+}
+
+.edit-modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.edit-modal-header h2 {
+    margin: 0;
+}
+
+.edit-modal-header button {
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #999;
+}
+
+.edit-modal-content {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.edit-modal-content ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.edit-modal-content li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.edit-modal-content li:last-child {
+    border-bottom: none;
+}
+
+.edit-modal-content span {
+    flex-grow: 1;
+}
+
+.edit-modal-content button {
+    background-color: #ff5b5b;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
