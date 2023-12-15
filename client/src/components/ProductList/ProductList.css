@@ -1,49 +1,51 @@
-/*// ProductList.css*/
+
+/* ProductList.css */
+
+/* Стили для десктопа и планшетов */
 .product-list {
     display: flex;
     flex-wrap: wrap;
     gap: 4px;
-    /*justify-content: flex-end; !* Изменим justify-content *!*/
+    justify-content: flex-start;
     margin-top: 100px;
-    margin-left: 250px;
-
+    margin-left: 260px;
+    padding-right: -100px;
 }
+
 h2 {
-    margin-top: 70px;
+    margin-top: 100px;
     color: #663d08;
     text-align: center;
     font-family: "American Typewriter";
 }
 
 .product-card {
-    width: calc(29.33% - 4px);
-    /*height: 260px;*/
+    width: calc(29.03% - 4px);
     box-sizing: border-box;
     margin-bottom: 4px;
+
     display: flex;
     flex-direction: column;
-    border: 1px solid #ccc;
-    border-radius: 8px;
+    border: 1px solid rgba(155, 135, 135, 0.1);
     overflow: hidden;
     transition: transform 0.2s ease-in-out;
 }
 
 .product-card:hover {
     transform: scale(1.01);
-    box-shadow: 3px 4px rgba(50, 48, 48, 0.1);
+    box-shadow: 3px 4px 3px rgba(98, 91, 91, 0.1);
 }
 
 .product-card img {
     width: 100%;
-    max-height: 100%;
-    object-fit: cover;
+    max-height: 200px;
+    object-fit: contain;
     border-radius: 8px 8px 0 0;
     margin: auto;
 }
 
 .product-details {
     padding: 16px;
-    /*flex-grow: 1;*/
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -69,17 +71,25 @@ h2 {
     text-align: center;
 }
 
-
-
-/* Добавляем медиа-запрос для устройств с максимальной шириной 768px (обычно мобильные устройства) */
-@media (max-width: 768px) {
-    .product-card {
-        margin-left: 0;
-        width: 100%; /* задаем ширину 100% для адаптации к ширине экрана */
+/* Медиа-запрос для планшетов и мобильных устройств с максимальной шириной 1024px */
+@media (max-width: 1024px) {
+    .product-list {
+        margin-left: 340px; /* Уменьшаем отступ слева */
     }
-    .product-list-container {
-        margin: 160px 20px 15px -212px;
-        padding: 0;
+
+    .product-card {
+        width: calc(75% - 4px); /* Уменьшаем ширину карточки для планшетов */
     }
 }
 
+/* Медиа-запрос для мобильных устройств с максимальной шириной 768px */
+@media (max-width: 768px) {
+    .product-list {
+        margin-left: 10px; /* Уменьшаем отступ слева */
+        margin-top: 150px; /* Изменяем отступ сверху */
+    }
+
+    .product-card {
+        width: 100%; /* Занимаем всю ширину на мобильных устройствах */
+    }
+}

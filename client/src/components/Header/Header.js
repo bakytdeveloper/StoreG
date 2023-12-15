@@ -27,7 +27,7 @@ const Header = ({ onSearch }) => {
         <header className="header">
             <div className="left-section">
                 <Link to="/" className="site-name" onClick={handleTitleClick}>
-                    <h1 className="site-name"> Store <span>N</span></h1>
+                    <h1 className="site-name"> Tech <span className="sp">Store</span></h1>
                 </Link>
             </div>
             <div className="social-icons">

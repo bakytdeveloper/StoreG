@@ -59,6 +59,14 @@ body.modal-open {
   width: 200px;
   margin: auto;
 }
+.btnPass {
+  background: #48c2e0;
+  padding: 5px;
+  color: #5f5d5a;
+  border: 2px solid gray;
+  border-radius: 4px;
+  font-size: 20px ;
+}
 
 @media (max-width: 768px) {
   /*html body {*/

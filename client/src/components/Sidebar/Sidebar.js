@@ -45,7 +45,7 @@ const Sidebar = ({ onTypeSelect }) => {
 
     return (
         <aside className={`sidebar ${isSidebarVisible ? 'show-sidebar' : ''}`}>
-            <h2>Types</h2>
+            <h2>Тип товара</h2>
             {/*<div className="toggle-button" onClick={toggleSidebar}>*/}
             {/*    ☰*/}
             {/*</div>*/}

@@ -41,7 +41,7 @@ const App = () => {
                            value={adminPassword}
                            onChange={(e) => setAdminPassword(e.target.value)}
                     />
-                    <button onClick={() => handleAdminPasswordSubmit(adminPassword)}>
+                    <button className="btnPass" onClick={() => handleAdminPasswordSubmit(adminPassword)}>
                       Войти
                     </button>
                   </div>
