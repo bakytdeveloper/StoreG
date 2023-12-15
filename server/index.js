@@ -15,8 +15,8 @@ require('./config/db');
 
 // Routes
 
-// const productsRouter = require('./routes/products');
-// app.use('/', productsRouter);
+const productsRouter = require('./routes/products');
+app.use('/', productsRouter);
 
 // Start the server
 app.listen(PORT, () => {

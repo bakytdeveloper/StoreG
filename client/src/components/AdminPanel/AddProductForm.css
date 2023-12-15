@@ -1,0 +1,25 @@
+/* client/src/components/AdminPanel/AddProductForm.css */
+.add-product-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+textarea {
+    height: 100px;
+}
+
+.specifications {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+button {
+    display: block;
+    margin-top: 10px;
+}

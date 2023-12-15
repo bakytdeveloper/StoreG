@@ -1,0 +1,144 @@
+/* client/src/components/AdminPanel/AdminPanel.css */
+
+.admin-panel {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+.admin-panel-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.admin-panel-title {
+    text-align: center;
+    color: #333;
+}
+
+
+/*О сейчас всё отлично. Админка смотрится отлично*/
+/*, функционал на странице работает как надо.  */
+
+.admin-panel-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.admin-panel-fields {
+    margin-bottom: 20px;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.admin-panel-preview img {
+    object-fit: contain;
+    width: 100%;
+    max-height: 200px;
+    margin-top: 10px;
+}
+
+.admin-panel-remove-image {
+    color: #fff;
+    background-color: #d9534f;
+    border: none;
+    padding: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.admin-panel-specifications {
+    margin-top: 20px;
+}
+
+h3 {
+    color: #333;
+}
+
+.admin-panel-specification {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.admin-panel-remove-specification {
+    color: #fff;
+    background-color: #d9534f;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.admin-panel-add-specification {
+    color: #fff;
+    background-color: #5bc0de;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.admin-panel-submit {
+    color: #fff;
+    background-color: #5cb85c;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.admin-panel-edit-button {
+    color: #fff;
+    background-color: #2bace0;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+/* Добавьте стили по необходимости для кнопок и других элементов */
+
+
+
+@media (max-width: 768px) {
+
+    .admin-panel {
+        margin-top: 150px;
+        text-align: center;
+        overflow-x: hidden; /* Добавляем свойство для предотвращения горизонтального скроллинга */
+    }
+}
+@media (max-width: 360px) {
+    /*html body {*/
+    /*  text-align: center;*/
+    /*  overflow-x: hidden; !* Добавляем свойство для предотвращения горизонтального скроллинга *!*/
+    /*}*/
+    .password {
+        margin-top: 170px;
+        text-align: center;
+        overflow-x: hidden; /* Добавляем свойство для предотвращения горизонтального скроллинга */
+    }
+
+}
+
