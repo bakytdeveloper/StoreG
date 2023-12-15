@@ -39,9 +39,9 @@ const Sidebar = ({ onTypeSelect }) => {
         onTypeSelect(null); // Передаем null для отображения всех товаров
     };
 
-    const toggleSidebar = () => {
-        setIsSidebarVisible(!isSidebarVisible);
-    };
+    // const toggleSidebar = () => {
+    //     setIsSidebarVisible(!isSidebarVisible);
+    // };
 
     return (
         <aside className={`sidebar ${isSidebarVisible ? 'show-sidebar' : ''}`}>

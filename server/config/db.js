@@ -5,6 +5,6 @@ const mongoose = require('mongoose');
 //     useNewUrlParser: true,
 //     useUnifiedTopology: true,
 // })
-mongoose.connect('mongodb+srv://bakytdeveloper:store_g@storeg.x4bhljx.mongodb.net/?retryWrites=true&w=majority')
+mongoose.connect('mongodb+srv://bakytdeveloper:store_g@storeg.x4bhljx.mongodb.net/StoreG?retryWrites=true&w=majority')
     .then(() => console.log('БАЗА ДАННЫХ МОНГО ПОДКЛЮЧЕННА!!!'))
     .catch(err => console.error('Error connecting to the database:', err));
