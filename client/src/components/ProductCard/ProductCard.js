@@ -36,7 +36,7 @@ const ProductCard = ({ product, onClick }) => {
             )}
             <div className="product-details">
                 <h3 className="product-name">{name}</h3>
-                <p className="product-description">{description.slice(0, 70)}</p>
+                <p className="product-description">{description && description.slice(0, 70)}</p>
                 <p className="product-price">{`Цена: ${price} KGS.`}</p>
             </div>
         </div>

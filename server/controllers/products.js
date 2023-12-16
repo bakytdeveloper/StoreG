@@ -1,4 +1,4 @@
-//
+
 //
 // // server/controllers/products.js
 // const Product = require('./../models/Product');
@@ -63,7 +63,7 @@
 //         res.status(500).json({ message: 'Internal Server Error', error: err.message });
 //     }
 // };
-//
+
 
 
 // server/controllers/products.js
