@@ -188,7 +188,7 @@ const ProductModal = ({ isOpen, onClose, product }) => {
                     <div className="product-image-main">
                         <img src={mainImage} alt={name} className="main-image" />
                     </div>
-                    <hr style={{width: "100%", height: "2px", background: "lightgray"}} />
+                    {/*<hr style={{width: "100%", height: "2px", background: "lightgray"}} />*/}
 
                     <div className="product-images-list">
                         {images.map((image, index) => (
@@ -226,6 +226,7 @@ const ProductModal = ({ isOpen, onClose, product }) => {
 };
 
 export default ProductModal;
+
 
 
 
