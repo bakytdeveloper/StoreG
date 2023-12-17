@@ -35,7 +35,7 @@ const ProductCard = ({ product, onClick }) => {
                 <img src={images[0]} alt={name} className="product-image" />
             )}
             <div className="product-details">
-                <h3 className="product-name">{name}</h3>
+                <h2 className="product-name">{name}</h2>
                 <p className="product-description">{description && description.slice(0, 70)}</p>
                 <p className="product-price">{`Цена: ${price} KGS.`}</p>
             </div>

@@ -12,15 +12,15 @@
     padding-right: -100px;
 }
 
-h2 {
-    margin-top: 100px;
-    color: #663d08;
-    text-align: center;
-    font-family: "American Typewriter";
-}
+/*h2 {*/
+/*    margin-top: 100px;*/
+/*    color: #663d08;*/
+/*    text-align: center;*/
+/*    font-family: "American Typewriter";*/
+/*}*/
 
 .product-card {
-    width: calc(29.03% - 4px);
+    width: calc(29.33% - 4px);
     box-sizing: border-box;
     margin-bottom: 4px;
 
@@ -52,12 +52,12 @@ h2 {
     text-align: center;
 }
 
-.product-name {
-    font-size: 1.2em;
+.product-name h2 {
+    font-size: 1.6em;
     font-weight: bold;
     margin-bottom: 8px;
     text-align: center;
-    font-family: "Courier New";
+    /*font-family: "Courier New";*/
 }
 
 .product-description {
