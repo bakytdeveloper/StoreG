@@ -37,13 +37,13 @@
 
 .product-modal h2 {
     margin-top: -40px;
-    color: #17bf05;
+    color: #13a203;
     /*font-family: Courier;*/
     font-weight: bold;
     font-size: 55px;
     text-align: center;
-    text-shadow: 2px 3px 3px lawngreen;
-
+    text-shadow: 2px 3px 3px #70d926;
+    font-family: Phosphate;
 }
 
 .product-modal h2 {
