@@ -12,13 +12,6 @@
     padding-right: -100px;
 }
 
-/*h2 {*/
-/*    margin-top: 100px;*/
-/*    color: #663d08;*/
-/*    text-align: center;*/
-/*    font-family: "American Typewriter";*/
-/*}*/
-
 .product-card {
     width: calc(29.33% - 4px);
     box-sizing: border-box;
