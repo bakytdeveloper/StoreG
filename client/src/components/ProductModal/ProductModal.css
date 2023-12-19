@@ -46,31 +46,31 @@
     font-family: Phosphate;
 }
 
-.product-modal h2 {
-    animation-duration: 2s;
-    animation-name: slidein;
-    animation-iteration-count: unset;
-    animation-direction: alternate;
-}
+/*.product-modal h2 {*/
+/*    animation-duration: 2s;*/
+/*    animation-name: slidein;*/
+/*    animation-iteration-count: unset;*/
+/*    animation-direction: alternate;*/
+/*}*/
 
 
-@keyframes slidein {
-    from {
-        margin-left: 100%;
-        width: 300%;
-    }
+/*@keyframes slidein {*/
+/*    from {*/
+/*        margin-left: 100%;*/
+/*        width: 300%;*/
+/*    }*/
 
-    to {
-        margin-left: 0%;
-        width: 100%;
-    }
+/*    to {*/
+/*        margin-left: 0%;*/
+/*        width: 100%;*/
+/*    }*/
 
-    75% {
-        font-size: 320%;
-        margin-left: 25%;
-        width: 250%;
-    }
-}
+/*    75% {*/
+/*        font-size: 320%;*/
+/*        margin-left: 25%;*/
+/*        width: 250%;*/
+/*    }*/
+/*}*/
 
 .product-image-main {
     padding: 0 20px; /* Расстояние между главной картинкой и маленькими */

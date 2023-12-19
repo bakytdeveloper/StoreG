@@ -5,6 +5,7 @@ const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 const cors = require('cors');
 const multer = require('multer'); // Подключаем multer для обработки файлов
+require('dotenv').config();
 
 
 const app = express();

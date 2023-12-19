@@ -100,7 +100,7 @@ const App = () => {
         <div className="app">
           <Header onSearch={handleSearch} />
           <Switch>
-            <Route path="/nurlan_admin">
+            <Route path="/admin">
               {isAdminAuthenticated ? (
                   <AdminPanel />
               ) : (

@@ -363,18 +363,18 @@ const AdminPanel = () => {
                 onUpdateClick={handleUpdateConfirmation}
             />
 
-            {/* Модальное окно подтверждения обновления */}
-            {updateConfirmationOpen && (
-                <div className="update-confirmation-modal">
-                    <p>Вы уверены, что хотите обновить товар?</p>
-                    <button type="button" onClick={handleUpdateConfirmation}>
-                        Да
-                    </button>
-                    <button type="button" onClick={() => setUpdateConfirmationOpen(false)}>
-                        Отмена
-                    </button>
-                </div>
-            )}
+            {/*/!* Модальное окно подтверждения обновления *!/*/}
+            {/*{updateConfirmationOpen && (*/}
+            {/*    <div className="update-confirmation-modal">*/}
+            {/*        <p>Вы уверены, что хотите обновить товар?</p>*/}
+            {/*        <button type="button" onClick={handleUpdateConfirmation}>*/}
+            {/*            Да*/}
+            {/*        </button>*/}
+            {/*        <button type="button" onClick={() => setUpdateConfirmationOpen(false)}>*/}
+            {/*            Отмена*/}
+            {/*        </button>*/}
+            {/*    </div>*/}
+            {/*)}*/}
 
             {/* Модальное окно подтверждения удаления */}
             {deleteConfirmationOpen && (

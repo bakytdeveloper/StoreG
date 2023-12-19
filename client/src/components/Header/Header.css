@@ -51,11 +51,14 @@
     cursor: pointer;
     color: #393838;
     backface-visibility: hidden; /* Добавляем свойство для избежания дёргания */
+    object-fit: contain;
+
 }
 
 .icon:hover {
     font-size: 31px;
     margin-right: 44px;
+    object-fit: contain;
 
     cursor: pointer;
     color: #6392ef;
@@ -63,6 +66,7 @@
 }
 a img {
     width: 31px;
+    /*object-fit: contain;*/
 }
 a img:hover {
     /*font-size: 33px;*/
