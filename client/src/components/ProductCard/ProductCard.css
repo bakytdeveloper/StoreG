@@ -49,6 +49,13 @@
 
 .product-description {
     margin-bottom: 8px;
+    display: flex;
+    text-align: center;
+
+    width: 88%; /* Добавим ширину 88% для описания */
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 .product-price {
